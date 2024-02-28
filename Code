@@ -1,0 +1,11 @@
+import time
+from plyer import notification
+
+if __name__ == "__main__":
+     notification.notify(
+          title = "**Time to do some hard rock music",
+          message = "To make your band to grow you need to spend more time with your hard rock genre. I know you are more into metal stuff. But end pf the day you need the band.",
+          app_icon = r"C:\Users\DellUser\Downloads\Guillendesign-Variations-2-Player.ico",
+          timeout = 10
+    )
+     time.sleep(24*60*60)
